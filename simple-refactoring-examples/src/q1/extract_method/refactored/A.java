@@ -11,7 +11,7 @@ public class A {
 
    Node m2(List<Node> nodeList, String p) {
       // TODO: Your answer
-	  extractedMethod(nodeList, p);
+      extractedMethod(nodeList, p);
       return null;
    }
 
