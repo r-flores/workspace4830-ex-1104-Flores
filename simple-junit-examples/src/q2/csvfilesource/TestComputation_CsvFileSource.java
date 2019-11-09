@@ -10,10 +10,9 @@ public class TestComputation_CsvFileSource {
    @ParameterizedTest
    @CsvFileSource(resources = "computation_dataset.csv")
    public void testGetDiscount(int input1, int input2, int expected) throws Exception { 
-
-	  Computation com = new Computation();
-      int result = com.getDiscount(input1,input2); 
-      Assert.assertEquals(result, expected);
+	   Computation com = new Computation();
+	   int result = com.getDiscount(input1,input2);
+	   Assert.assertEquals(result, expected);
 
    }
 }
